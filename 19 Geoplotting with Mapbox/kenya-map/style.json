@@ -1,0 +1,41 @@
+{
+    "version": 8,
+    "name": "Blank",
+    "metadata": {
+        "mapbox:autocomposite": true,
+        "mapbox:type": "template",
+        "mapbox:sdk-support": {
+            "android": "9.3.0",
+            "ios": "5.10.0",
+            "js": "1.10.0"
+        },
+        "mapbox:groups": {},
+        "mapbox:uiParadigm": "layers"
+    },
+    "center": [38.82815715898565, -3.2791668508515244],
+    "zoom": 4.072402815511132,
+    "bearing": 0,
+    "pitch": 0,
+    "sources": {
+        "composite": {"url": "mapbox://regan254.0f0hnq32", "type": "vector"}
+    },
+    "sprite": "mapbox://sprites/regan254/ckgpstqk8321319pjei16ag2c/ck2u8j60r58fu0sgyxrigm3cu",
+    "glyphs": "mapbox://fonts/mapbox/{fontstack}/{range}.pbf",
+    "layers": [
+        {
+            "id": "ne-10m-admin-0-countries-6x2lb9",
+            "type": "fill",
+            "source": "composite",
+            "source-layer": "ne_10m_admin_0_countries-6x2lb9",
+            "filter": ["match", ["get", "NAME"], ["", "Kenya"], true, false],
+            "layout": {},
+            "paint": {"fill-color": "hsl(295, 93%, 10%)"}
+        }
+    ],
+    "created": "2020-10-26T00:24:30.409Z",
+    "modified": "2021-09-03T12:30:21.376Z",
+    "id": "ckgpstqk8321319pjei16ag2c",
+    "owner": "regan254",
+    "visibility": "private",
+    "draft": false
+}
